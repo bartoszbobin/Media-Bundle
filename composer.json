@@ -1,6 +1,5 @@
 {
     "name": "bobin/media-bundle",
-	"version": "0.5.4",
     "type": "library",
     "description": "Media Bundle",
     "keywords": ["media", "file manager"],
