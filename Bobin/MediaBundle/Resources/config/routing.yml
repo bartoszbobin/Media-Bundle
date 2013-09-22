@@ -1,0 +1,6 @@
+#bobin_media_file:
+#    pattern:  /{size}/{fileName}
+#    defaults: { _controller: BobinMediaBundle:File:generate }
+#    methods:  [GET]
+#    requirements:
+#        size:  ^[0-9]{1,5}x[0-9]{1,5}$

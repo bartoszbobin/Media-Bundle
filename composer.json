@@ -1,0 +1,19 @@
+{
+    "name": "bobin/media-bundle",
+	"version": "0.5.4",
+    "type": "library",
+    "description": "Media Bundle",
+    "keywords": ["media", "file manager"],
+    "homepage": "http://www.bartosz.bobin.eu/",
+    "license": "MIT",
+    "authors": [
+        { "name": "Bartosz Bobin", "email": "bartosz@bobin.eu" }
+	],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/symfony": "2.3.*"
+    },
+    "autoload": {
+        "psr-0": { "Bobin\\MediaBundle\\": "" }
+    }
+}

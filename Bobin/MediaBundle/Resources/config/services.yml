@@ -1,0 +1,7 @@
+parameters:
+#    bobin_media.example.class: Bobin\MediaBundle\Example
+
+services:
+    bobin_media.namespace_manager:
+        class: Bobin\MediaBundle\Manager\NamespaceManager
+        arguments: [@service_container]
