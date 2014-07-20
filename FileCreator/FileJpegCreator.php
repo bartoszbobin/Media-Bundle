@@ -13,6 +13,6 @@ class FileJpegCreator extends FileCreator
 	
 	protected function createFile($newFileImage, $newFilePath)
 	{
-		return imagejpeg($newFileImage, $newFilePath, 75);
+		return imagejpeg($newFileImage, $newFilePath, 1000);
 	}
 } 
